@@ -1,0 +1,148 @@
+.create-email-wrapper {
+    max-width: 750px;
+    margin: 0px auto;
+    border: 1px solid #c0dad2;
+    box-shadow: 0px 4px 24px 0px #00000014;
+    padding: 25px 0px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.ant-form {
+    padding: 0px 20px;
+    border-bottom: 1px solid #dae5e2;
+}
+
+.form-title {
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+
+.signature-wrapper {
+    padding: 30px;
+}
+
+.signature-wrapper .inner-signature {
+    border: 1px solid #d7d7d7;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.ant-form-item .ant-form-item-label label {
+    font-size: 16px;
+    color: #2e2e2e;
+}
+
+.image-input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.image-input-wrapper .ant-input-affix-wrapper {
+    margin-right: 15px;
+}
+
+.ant-input-affix-wrapper {
+    border: 1px solid #c1d6d2;
+    height: 44px;
+}
+
+.ant-form-item-control-input input {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f1f1f;
+    font-family: "Heebo", sans-serif;
+}
+
+.ant-form-item-control-input input::placeholder {
+    font-weight: 400;
+}
+
+.ant-input-outlined:hover {
+    border-color: #474747;
+}
+
+.image-input-wrapper .tooltip {
+    max-width: 300px;
+}
+
+.btn-wrapper {
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.ant-btn-variant-solid {
+    color: #fff;
+    background: #1b5242;
+}
+
+.ant-btn-color-primary {
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Heebo", sans-serif;
+}
+
+.ant-btn-lg {
+    height: 51px;
+}
+
+.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+    background: #1b5242;
+}
+
+.ant-btn-color-default {
+    color: rgb(27 82 66);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Heebo", sans-serif;
+    border: 1px solid #1b5242;
+}
+
+.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover,
+.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #1b5242;
+    border-color: #1b5242;
+    background: #ffffff;
+}
+
+.ant-skeleton .ant-skeleton-header .ant-skeleton-avatar-lg {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.ant-skeleton-with-avatar .ant-skeleton-content .ant-skeleton-title {
+    height: 20px;
+}
+
+.ant-skeleton-with-avatar .ant-skeleton-content .ant-skeleton-title+.ant-skeleton-paragraph {
+    margin-block-start: 15px;
+}
+
+.signature-wrapper .inner-signature {
+    border: 1px solid #d7d7d7;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+}
+
+.inner-signature-left {
+    width: 100%;
+}
+
+.inner-signature-left .email {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.inner-signature-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
